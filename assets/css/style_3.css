@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Courier, monospace;
+    word-spacing: 1.5px;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+
+  .container{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    margin: 30% auto;
+    max-width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 2px 3px rgb(238, 238, 238);
+    border-radius: 8px;
+}
+
+h4{
+    color: #086db3;
+    margin: 3% 0 3% 0;
+}
+
+.sorry_msg h2{
+    color: red;
+}
+
+@media screen and (max-width: 700px) {
+
+    .container{
+        max-width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .container{
+        max-width: 250px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    a{
+        font-size: 12px;
+    }
+
+
+    .alert_email{
+
+        margin: 35% auto;
+    }
+}
